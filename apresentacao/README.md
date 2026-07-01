@@ -32,9 +32,9 @@ Com base nos problemas identificados e nos requisitos levantados ao longo deste 
 
 ## Vídeo de apresentação das funcionalidades
 
-https://github.com/user-attachments/assets/590b949e-7ee4-4558-a584-35fbbd369ab7
+https://github.com/user-attachments/assets/df797cfc-3c59-4231-9dba-c40471302099
 
 ## Hospedagem
 
-A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t03-leadflow/codigo-fonte/pages/">aqui</a> para acessá-lo.
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://lucasmartintoth.github.io/LeadFlow_1.0/codigo-fonte/pages/index.html">aqui</a> para acessá-lo.
 
