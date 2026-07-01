@@ -6,22 +6,57 @@
 
 `1º semestre/2026`
 
-O presente projeto tem como objetivo o desenvolvimento de um sistema de CRM (Customer Relationship Management) voltado para microempreendedores, freelancers e pequenas empresas. Essas organizações frequentemente enfrentam dificuldades na organização das informações de seus clientes, mantendo dados distribuídos em planilhas, anotações informais e aplicativos de mensagens.
+CRM para pequenos e micro negócios, criado para centralizar contatos, funil de vendas e follow-up em um único lugar.
 
-Essa descentralização dificulta o acompanhamento de negociações, o controle de interações e a tomada de decisões, podendo resultar em perda de oportunidades de negócio.
+## Evolução do projeto
 
-Diante disso, o sistema proposto visa centralizar todas as informações em uma única plataforma, permitindo o cadastro de clientes, registro de interações e acompanhamento do processo de vendas por meio de um funil.
+### v1.0 — Projeto acadêmico (este repositório)
 
-## Integrantes
+Desenvolvido durante o 1º semestre do curso de Análise e Desenvolvimento de Sistemas (PUC Minas), como projeto em dupla com Hylbert Honorato.
 
-* Lucas Martin da Costa Toth
-* Hylbert Honorato Silva Silvestre
+* Stack: JavaScript, HTML5, CSS3 (vanilla, sem frameworks)
+* Escopo: cadastro e gestão de leads, funil de vendas, responsividade mobile
+* Documentação completa: contexto do problema, especificação de requisitos, metodologia e projeto de interface — disponíveis na pasta /documentos
+* Deploy: GitHub Pages
+* Objetivo: estudo acadêmico de conceitos de desenvolvimento de software e validar lógica de negócio e fluxo de produto com ferramentas simples, antes de escalar a arquitetura
+
+### v2.0 — Reconstrução fullstack (em desenvolvimento)
+
+Após validar o conceito na v1.0, o projeto está sendo reconstruído do zero com uma stack fullstack moderna, já que o código acadêmico não comporta os requisitos de um SaaS real (multi-tenancy, autenticação segura, pagamentos recorrentes).
+
+* Stack: Next.js 14, TypeScript, Tailwind CSS, Supabase, Stripe, Evolution API (WhatsApp), Vercel
+* Escopo: workspaces multi-usuário, automação de WhatsApp, assinaturas via Stripe, autenticação e autorização
+* Repositório: (futuramente será disponibilizado)
+
+### Por que reconstruir em vez de evoluir o código v1.0?
+
+A base v1.0 foi construída sem framework, sem tipagem e sem separação clara entre front-end e back-end — suficiente para provar o conceito acadêmico, mas não para sustentar autenticação real, cobrança recorrente ou múltiplos usuários simultâneos. A v2.0 parte de uma arquitetura pensada desde o início para esses requisitos.
+
+## Funcionalidades (v1.0)
+* Cadastro e edição de leads
+* Visualização de funil de vendas
+* Interface responsiva
+
+## Como rodar localmente
+
+```
+git clone https://github.com/LucasMartinToth/LeadFlow.git
+cd LeadFlow
+# abrir index.html no navegador ou usar um servidor local (ex: Live Server)
+```
+
+## Autores
+
+* Lucas Martin Toth
+* Hylbert Honorato
 
 ## Orientadora
 
 * Viviâne de Almeida Tôrres
 
 # Documentação
+
+Toda a documentação de processo (contexto, especificação, metodologia e projeto de interface) está disponível na pasta /documentos deste repositório.
 
 <ol>
 <li><a href="documentos/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -39,4 +74,7 @@ A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servi
 
 # Apresentação
 
-<li><a href="apresentacao/README.md"> Apresentação da solução</a></li>
+* <a href="apresentacao/README.md"> Apresentação da solução</a></li>
+
+# Licença
+* MIT
