@@ -35,7 +35,7 @@ Diante disso, o sistema proposto visa centralizar todas as informações em uma 
 
 # Hospedagem
 
-A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://lucasmartintoth.github.io/LeadFlow_1.0/codigo-fonte/pages/index.html">aqui</a> para acessá-lo.
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://lucasmartintoth.github.io/LeadFlow/codigo-fonte/pages/index.html">aqui</a> para acessá-lo.
 
 # Apresentação
 
