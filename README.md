@@ -77,4 +77,4 @@ A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servi
 * <a href="apresentacao/README.md"> Apresentação da solução</a></li>
 
 # Licença
-* MIT
+* <a href ="./LICENSE"> MIT License </a>
